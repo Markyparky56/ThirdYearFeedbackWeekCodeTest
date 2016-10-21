@@ -29,7 +29,7 @@ public:
 
     static bool IsCoin(Currency::Type type)
     {
-        return (type == Type::cent50 || type == Type::euro1 || type == Type::euro2);
+        return (type == Type::cent50 || type == Type::euro1 || type == Type::euro2 || type == Type::penny50 || type == Type::pound1);
     }
     static bool IsNote(Currency::Type type)
     {
